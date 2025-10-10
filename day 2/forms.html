@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color:rgb(252, 113, 7);
+           font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+        }
+
+       form{
+        border-radius: 400px;
+        margin: 400px;
+        padding: 300px;
+        background-color: rgb(243, 228, 14);
+       }
+
+        lable{
+            color: rgba(12, 12, 12, 0.91);
+            background-color:rgba(250, 102, 10, 0);
+            font-family: 'Times New Roman', Times, serif;
+            font-size: xx-large;
+        }
+        .pass{
+            background-color: rgb(252, 5, 5);
+        }
+    </style>
+</head>
+<body>
+    <header>CITY Engineering colleges</header>
+     <nav>
+        <ul>
+            <li><a href="forms.html">Forms</a></li>
+            <li> <a href="../fornt_end_cec/table.html">Table</a></li>
+        </ul>
+    </nav>
+    <h1 style="color: rgb(0, 0, 13); background-color:rgb(234, 69, 8); text-align:center; font-family:Georgia, 'Times New Roman', Times, serif">Basic Form </h1>
+    <form action="/submit" method="post">
+        <lable for="name"/>Name:</lable>
+        <input type="text" id="name" name="name" required /> <br> <br>
+        <lable for ="emali"/>Emali:</lable>
+        <input type="emali" id=" emali" name"emali" required/> <br> <br>
+        <lable for="male">Male</lable>
+        <input type="radio" id="male" name="gender" value="male">
+        <lable for="female">Famle</lable>
+        <input type="radio" id="female" name=""gender" value="female">"<br> <br>
+<h3> Terms And Condtion</h3>
+<lable>
+    <input type="checkbox" name="terms" required/>
+    I agree to the terms and condtion</lable>
+    ><br /><br />
+    <lable for="deparment">deperment</lable>
+    <select id=""deparment" name="deparment">
+        <option value="ISE">ISE</option>
+        <option value="CSE">CSE</option>
+        <option value="ME">ME</option>
+        <option value="CIVIL">CIVIL</option>
+        <option value="AI&ML">AI&ML</option></select>
+        .<br /><br>
+    <lable for="password">Password</lable><br>
+     <input type="password" id="password" name="password" required/><br> <br>
+     <lable for="birthday">Birthday</lable><br>
+    <input type="date" id="birthday" name="birthday"/><br> <br>
+        <textarea>Discription</textarea><br> <br>
+        <lable for="video">Upload your video</lable>
+        <input type="file" id="video" name="video" accept="video/*"/><br> <br>
+        <lable for="pdf">Upload your pdf</lable>
+        <input type="file" id="pdf" name="pdf" accept="application/pdf"/><br> <br>
+        <lable for="document">Upload your document</lable>
+        <input type="file" id="doc" name="doc" accept="appliction/document"/><br> <br>
+        <lable for=" rating"> give your rating</lable>"
+        <input type="range" id="rating" name="rating" min="1" max="10"/><br> <br>
+        <input for color">color</lable>
+        <input type="color" name=""color" id="color"/><br> <br>  
+        <button type="reset">Reset</button>   
+        <input type="submit" value="Submit"/>
+    </form>
+</body>
+</html>
